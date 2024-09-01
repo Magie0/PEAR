@@ -27,7 +27,12 @@ To reproduce our results, this is the configuration in which our tests were cond
 	•	cuDNN: 8.9.0 
 	•	PyTorch: 2.2.0 with CUDA 12.1 support
 	•	NumPy: 1.24.3
-
+```bash
+pip install torch==2.2.0
+pip install absl-py
+pip install pandas
+pip install einops
+```bash
 ## Dataset
 
 To run PEAR, you will need to download the datasets used in our experiments. The datasets can be downloaded from the following link:
