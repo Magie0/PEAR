@@ -28,7 +28,7 @@ To run PEAR, you will need to download the datasets used in our experiments. The
 Please ensure you have the datasets downloaded and properly placed in your working directory before running the compression and decompression processes.
 
 ## Usage
-、、、bash
+```bash
 git clone https://github.com/Magie0/PEAR.git
 cd PEAR
 
