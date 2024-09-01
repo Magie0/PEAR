@@ -2,6 +2,8 @@
 
 PEAR (Parallel and Efficient Accelerated compressoR) is a novel learning-based compression framework designed to improve data storage efficiency by addressing the challenges of high computational costs and memory usage in existing compressors. This repository contains the implementation of PEAR, along with experimental scripts and datasets for reproducing the results.
 
+The code of performer is from https://github.com/mynotwo/Faster-and-Stronger-Lossless-Compression-with-Optimized-Autoregressive-Framework
+
 ## Overview
 
 Advances in general-purpose lossless compression have significantly enhanced data storage efficiency, particularly with the exponential growth in data generation and storage. However, existing learning-based compressors often struggle with high computational costs due to memory-intensive models and inefficient serial entropy coding. PEAR addresses these challenges with:
@@ -17,31 +19,8 @@ Advances in general-purpose lossless compression have significantly enhanced dat
 - **Faster Compression Speed**: The parallel encoding module accelerates the compression process, providing a 130% increase in speed.
 - **Reduced Memory Consumption**: Optimized for memory efficiency, PEAR reduces memory usage by 35% compared to existing methods.
 
-## Installation
-
-To install and run PEAR, follow these steps:
-
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/yourusername/pear-compressor.git
-    cd pear-compressor
-    ```
-
-2. **Install the required dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Run the compression script**:
-    ```bash
-    python run_compression.py --input <input_file> --output <output_file>
-    ```
-
 ## Usage
-
-### Compression
-
-To compress a file using PEAR:
+PEAR integrates both compression and decompression in a single command, simplifying the workflow. To run the process, use the following command:
 
 ```bash
-python run_compression.py --input <input_file> --output <output_file>
+python PEARencoding.py --input_dir <input_directory> --prefix <prefix> --gpu_id <gpu_id> --batch_size <batch_size>
