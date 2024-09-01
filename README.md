@@ -31,7 +31,7 @@ Please ensure you have the datasets downloaded and properly placed in your worki
 ```bash
 git clone https://github.com/Magie0/PEAR.git
 cd PEAR
-
+```
 PEAR integrates both compression and decompression in a single command, simplifying the workflow. To run the process, use the following command:
 
 ```bash
