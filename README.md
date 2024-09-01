@@ -19,7 +19,19 @@ Advances in general-purpose lossless compression have significantly enhanced dat
 - **Faster Compression Speed**: The parallel encoding module accelerates the compression process, providing a 130% increase in speed.
 - **Reduced Memory Consumption**: Optimized for memory efficiency, PEAR reduces memory usage by 35% compared to existing methods.
 
+## Dataset
+
+To run PEAR, you will need to download the datasets used in our experiments. The datasets can be downloaded from the following link:
+
+- [Dataset Download Link](<insert-your-link-here>)
+
+Please ensure you have the datasets downloaded and properly placed in your working directory before running the compression and decompression processes.
+
 ## Usage
+、、、bash
+git clone https://github.com/Magie0/PEAR.git
+cd PEAR
+
 PEAR integrates both compression and decompression in a single command, simplifying the workflow. To run the process, use the following command:
 
 ```bash
