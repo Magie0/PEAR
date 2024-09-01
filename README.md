@@ -19,6 +19,15 @@ Advances in general-purpose lossless compression have significantly enhanced dat
 - **Faster Compression Speed**: The parallel encoding module accelerates the compression process, providing a 130% increase in speed.
 - **Reduced Memory Consumption**: Optimized for memory efficiency, PEAR reduces memory usage by 35% compared to existing methods.
 
+## Requirements
+To reproduce our results, this is the configuration in which our tests were conducted:
+
+	•	NVIDIA Driver: Version compatible with CUDA 12.1 
+	•	CUDA Toolkit: 12.1
+	•	cuDNN: 8.9.0 
+	•	PyTorch: 2.2.0 with CUDA 12.1 support
+	•	NumPy: 1.24.3
+
 ## Dataset
 
 To run PEAR, you will need to download the datasets used in our experiments. The datasets can be downloaded from the following link:
