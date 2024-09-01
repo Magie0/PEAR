@@ -33,7 +33,7 @@ pip install torch==2.2.0
 pip install absl-py
 pip install pandas
 pip install einops
-```bash
+```
 
 ## Dataset
 
